@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply antialiased text-[#1d1d1f] bg-[#fbfbfd];
+  }
+
+  ::selection {
+    @apply bg-apple-blue/20 text-[#1d1d1f];
+  }
+}
+
+/* Swiper pagination overrides for Apple-style bullets */
+span.swiper-pagination-bullet {
+  @apply transition-all duration-200;
+  border-radius: 10px;
+  background: #000000;
+}
