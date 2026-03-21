@@ -21,6 +21,7 @@ export interface Translations {
     home: string;
     privacy: string;
     terms: string;
+    support: string;
   };
   footer: {
     description: string;
@@ -31,5 +32,13 @@ export interface Translations {
   legal: {
     privacyTitle: string;
     termsTitle: string;
+  };
+  support: {
+    title: string;
+    subtitle: string;
+    emailLabel: string;
+    responseTime: string;
+    faqTitle: string;
+    faqItems: Array<{ q: string; a: string }>;
   };
 }

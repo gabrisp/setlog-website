@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Home, FileText, Scale } from "lucide-react";
+import { Home, FileText, Scale, LifeBuoy } from "lucide-react";
 import clsx from "clsx";
 import type { Locale } from "@/lib/i18n";
 import { getTranslations } from "@/content/locales";
@@ -15,6 +15,7 @@ export function FloatingNav({ locale }: { locale: Locale }) {
     { path: "/", href: `/`, label: t.nav.home, icon: Home },
     { path: "/privacy", href: `/privacy?lan=${locale}`, label: t.nav.privacy, icon: FileText },
     { path: "/terms", href: `/terms?lan=${locale}`, label: t.nav.terms, icon: Scale },
+    { path: "/support", href: `/support?lan=${locale}`, label: t.nav.support, icon: LifeBuoy },
   ] as const;
 
   return (

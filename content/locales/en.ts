@@ -35,6 +35,7 @@ export const en: Translations = {
     home: "Home",
     privacy: "Privacy",
     terms: "Terms",
+    support: "Support",
   },
   footer: {
     description: "Stay consistent with your daily creatine routine through reminders, widgets, and a simple premium experience.",
@@ -45,5 +46,18 @@ export const en: Translations = {
   legal: {
     privacyTitle: "Privacy Policy",
     termsTitle: "Terms & Conditions",
+  },
+  support: {
+    title: "Support",
+    subtitle: "Need help with Creatinely? We're here for you.",
+    emailLabel: "Email us",
+    responseTime: "We usually respond within 24 hours.",
+    faqTitle: "Frequently Asked Questions",
+    faqItems: [
+      { q: "How do I set up reminders?", a: "Open the app, go to Settings and tap Reminders to configure your daily notification time." },
+      { q: "Does the app work offline?", a: "Yes. All your data is stored on-device and synced via iCloud when connected." },
+      { q: "How do I restore my purchase?", a: "Go to Settings inside the app and tap Restore Purchases." },
+      { q: "How do I delete my data?", a: "All data is stored locally on your device. Deleting the app removes all associated data." },
+    ],
   },
 };

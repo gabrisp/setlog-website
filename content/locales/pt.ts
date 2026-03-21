@@ -35,6 +35,7 @@ export const pt: Translations = {
     home: "Início",
     privacy: "Privacidade",
     terms: "Termos",
+    support: "Suporte",
   },
   footer: {
     description: "Mantenha a consistência da sua rotina de creatina com lembretes, widgets e uma experiência premium simples.",
@@ -45,5 +46,18 @@ export const pt: Translations = {
   legal: {
     privacyTitle: "Política de privacidade",
     termsTitle: "Termos e condições",
+  },
+  support: {
+    title: "Suporte",
+    subtitle: "Precisa de ajuda com o Creatinely? Estamos aqui para você.",
+    emailLabel: "Fale conosco",
+    responseTime: "Geralmente respondemos em até 24 horas.",
+    faqTitle: "Perguntas frequentes",
+    faqItems: [
+      { q: "Como configuro os lembretes?", a: "Abra o app, vá em Configurações e toque em Lembretes para definir seu horário de notificação diário." },
+      { q: "O app funciona sem internet?", a: "Sim. Todos os dados são armazenados no dispositivo e sincronizados via iCloud quando conectado." },
+      { q: "Como restauro minha compra?", a: "Vá em Configurações dentro do app e toque em Restaurar compras." },
+      { q: "Como excluo meus dados?", a: "Todos os dados são armazenados localmente. Excluir o app remove todos os dados associados." },
+    ],
   },
 };

@@ -28,6 +28,7 @@ export function Footer({ locale }: { locale: Locale }) {
       { label: "Privacy Policy", href: `/privacy?lan=${locale}` },
     ],
     support: [
+      { label: t.nav.support, href: `/support?lan=${locale}` },
       { label: t.footer.contact, href: `mailto:${CONTACT_EMAIL}` },
     ],
   };
@@ -71,16 +72,27 @@ export function Footer({ locale }: { locale: Locale }) {
                 Support
               </h3>
               <ul className="mt-4 space-y-3">
-                {footerLinks.support.map(({ label, href }) => (
-                  <li key={label}>
-                    <a
-                      href={href}
-                      className="text-sm text-neutral-600 hover:text-[#1d1d1f] transition-colors"
-                    >
-                      {label}
-                    </a>
-                  </li>
-                ))}
+                {footerLinks.support.map(({ label, href }) =>
+                  href.startsWith("mailto:") ? (
+                    <li key={label}>
+                      <a
+                        href={href}
+                        className="text-sm text-neutral-600 hover:text-[#1d1d1f] transition-colors"
+                      >
+                        {label}
+                      </a>
+                    </li>
+                  ) : (
+                    <li key={label}>
+                      <Link
+                        href={href}
+                        className="text-sm text-neutral-600 hover:text-[#1d1d1f] transition-colors"
+                      >
+                        {label}
+                      </Link>
+                    </li>
+                  )
+                )}
               </ul>
             </div>
             <div>

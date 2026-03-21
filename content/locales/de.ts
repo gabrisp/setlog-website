@@ -35,6 +35,7 @@ export const de: Translations = {
     home: "Start",
     privacy: "Datenschutz",
     terms: "AGB",
+    support: "Support",
   },
   footer: {
     description: "Bleib mit Erinnerungen, Widgets und einer einfachen Premium-Erfahrung bei deiner Kreatin-Routine.",
@@ -45,5 +46,18 @@ export const de: Translations = {
   legal: {
     privacyTitle: "Datenschutzerklärung",
     termsTitle: "AGB",
+  },
+  support: {
+    title: "Support",
+    subtitle: "Brauchst du Hilfe mit Creatinely? Wir sind für dich da.",
+    emailLabel: "Schreib uns",
+    responseTime: "Wir antworten in der Regel innerhalb von 24 Stunden.",
+    faqTitle: "Häufige Fragen",
+    faqItems: [
+      { q: "Wie richte ich Erinnerungen ein?", a: "Öffne die App, gehe zu Einstellungen und tippe auf Erinnerungen, um deine tägliche Benachrichtigungszeit festzulegen." },
+      { q: "Funktioniert die App offline?", a: "Ja. Alle Daten werden lokal gespeichert und über iCloud synchronisiert, wenn du verbunden bist." },
+      { q: "Wie stelle ich meinen Kauf wieder her?", a: "Gehe in der App zu Einstellungen und tippe auf Käufe wiederherstellen." },
+      { q: "Wie lösche ich meine Daten?", a: "Alle Daten werden lokal auf deinem Gerät gespeichert. Das Löschen der App entfernt alle zugehörigen Daten." },
+    ],
   },
 };

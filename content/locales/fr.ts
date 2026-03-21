@@ -35,6 +35,7 @@ export const fr: Translations = {
     home: "Accueil",
     privacy: "Confidentialité",
     terms: "Mentions légales",
+    support: "Assistance",
   },
   footer: {
     description: "Restez régulier avec votre routine créatine grâce aux rappels, widgets et une expérience premium simple.",
@@ -45,5 +46,18 @@ export const fr: Translations = {
   legal: {
     privacyTitle: "Politique de confidentialité",
     termsTitle: "Conditions générales",
+  },
+  support: {
+    title: "Assistance",
+    subtitle: "Besoin d'aide avec Creatinely ? Nous sommes là pour vous.",
+    emailLabel: "Nous écrire",
+    responseTime: "Nous répondons généralement sous 24 heures.",
+    faqTitle: "Questions fréquentes",
+    faqItems: [
+      { q: "Comment configurer les rappels ?", a: "Ouvrez l'app, allez dans Réglages et appuyez sur Rappels pour configurer votre heure de notification quotidienne." },
+      { q: "L'app fonctionne-t-elle hors ligne ?", a: "Oui. Toutes vos données sont stockées sur l'appareil et synchronisées via iCloud lorsque vous êtes connecté." },
+      { q: "Comment restaurer mon achat ?", a: "Allez dans Réglages dans l'app et appuyez sur Restaurer les achats." },
+      { q: "Comment supprimer mes données ?", a: "Toutes les données sont stockées localement. La suppression de l'app efface toutes les données associées." },
+    ],
   },
 };

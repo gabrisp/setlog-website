@@ -13,11 +13,6 @@ const LocaleContext = createContext<LocaleContextValue>({
   setLocale: () => {},
 });
 
-function getLangFromUrl(): Locale | null {
-  if (typeof window === "undefined") return null;
-  const lan = new URLSearchParams(window.location.search).get("lan");
-  return lan && isValidLocale(lan) ? (lan as Locale) : null;
-}
 
 export function LocaleProvider({
   initialLocale,
@@ -37,18 +32,8 @@ export function LocaleProvider({
   };
 
   useEffect(() => {
-    const fromUrl = getLangFromUrl();
-    if (fromUrl) {
-      localStorage.setItem(STORAGE_KEY, fromUrl);
-      document.cookie = `${LOCALE_COOKIE}=${fromUrl}; path=/; max-age=${60 * 60 * 24 * 365}; SameSite=Lax`;
-      setLocaleState(fromUrl);
-      return;
-    }
-    const stored = localStorage.getItem(STORAGE_KEY);
-    if (stored && isValidLocale(stored)) {
-      setLocaleState(stored as Locale);
-      return;
-    }
+    // initialLocale already reflects the cookie set by middleware (including ?lan= redirects).
+    // Always sync localStorage to match it so stale localStorage values don't override.
     localStorage.setItem(STORAGE_KEY, initialLocale);
     setLocaleState(initialLocale);
     // eslint-disable-next-line react-hooks/exhaustive-deps -- run once on mount
