@@ -10,7 +10,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
   title: {
-    default: `${SITE_NAME} — Daily Creatine Reminders for iPhone`,
+    default: `${SITE_NAME} — Gym Tracker for iPhone`,
     template: `%s — ${SITE_NAME}`,
   },
   description: SITE_DESCRIPTION,
