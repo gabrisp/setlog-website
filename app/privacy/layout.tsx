@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
-  description: "Privacy Policy for Creatinely iOS app.",
+  description: "Privacy Policy for SetLog iOS app.",
 };
 
 export default function PrivacyLayout({

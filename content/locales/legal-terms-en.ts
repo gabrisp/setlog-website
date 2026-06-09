@@ -1,6 +1,6 @@
 /** English strings for Terms page. Use with legal.terms data from content/legal. */
 export const termsEn = {
-  subtitle: "Terms of use for the Creatinely app and subscription service.",
+  subtitle: "Terms of use for the SetLog app and subscription service.",
   version: "Version",
   lastUpdated: "Last updated",
   s1Title: "1. Acceptance",
@@ -10,7 +10,7 @@ export const termsEn = {
   s1AppStore: "App Store Terms and Conditions",
   s1Suffix: ", as applicable. If you do not agree, do not use the App.",
   s2Title: "2. Description of the service",
-  s2Body: "{appName} is a {platform} application that helps you maintain a consistent creatine routine through reminders, home screen widgets, and progress tracking. Certain features are available through a paid subscription managed by Apple and orchestrated technically by RevenueCat.",
+  s2Body: "{appName} is a {platform} application that helps you log your gym workouts, track your exercises, sets, reps, and weight, and monitor your progress over time. Certain features are available through a paid subscription managed by Apple and orchestrated technically by RevenueCat.",
   s3Title: "3. Eligibility and requirements",
   s3Body: "You must be at least 13 years of age (or the age of consent in your jurisdiction) to use the App. You must have a compatible {platform} device and an Apple ID to access in-app purchases and subscriptions.",
   s4Title: "4. Subscriptions and payments",
@@ -32,8 +32,8 @@ export const termsEn = {
   s6Body: "You may not use the App for any illegal purpose, to distribute malware, to abuse or overload our or our providers' systems, or to circumvent any access controls or subscription mechanisms.",
   s7Title: "7. Intellectual property",
   s7Body: "All rights in the App, including design, text, graphics, and code, are owned by us or our licensors. You receive only a limited, non-exclusive licence to use the App as provided through the App Store.",
-  s8Title: "8. Medical disclaimer",
-  s8Body: "The App is for general wellness and routine tracking only. It does not provide medical, nutritional, or health advice. Always consult a qualified healthcare provider before starting or changing any supplement regimen. Use of the App does not replace professional medical advice.",
+  s8Title: "8. Disclaimer",
+  s8Body: "The App is a workout logging tool for personal fitness tracking only. It does not provide medical, nutritional, or health advice. Always consult a qualified healthcare provider before starting or changing any exercise programme. Use of the App does not replace professional medical advice.",
   s9Title: "9. Limitation of liability",
   s9Body: "To the maximum extent permitted by law, we and our providers shall not be liable for any indirect, incidental, special, or consequential damages arising from your use of the App. Our total liability shall not exceed the amount you paid for the App (including subscriptions) in the twelve months preceding the claim.",
   s10Title: "10. Termination",

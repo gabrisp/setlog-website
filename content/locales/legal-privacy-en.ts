@@ -1,14 +1,14 @@
 /** English strings for Privacy page. Use with legal data (controller, version, etc.) from content/legal. */
 export const privacyEn = {
-  subtitle: "How Creatinely collects, uses, and protects your information.",
+  subtitle: "How SetLog collects, uses, and protects your information.",
   version: "Version",
   lastUpdated: "Last updated",
   summaryTitle: "Summary in plain language",
   summaryBody:
-    "Creatinely does not require an account. We do not ask for your name. We do not use advertising identifiers (IDFA) or sell your data. We use industry-standard services (Firebase, RevenueCat) for analytics, crash reporting, and subscription management. Notifications are local only. This app does not replace medical advice.",
+    "SetLog does not require an account. We do not ask for your name. We do not use advertising identifiers (IDFA) or sell your data. We use industry-standard services (Firebase, RevenueCat) for analytics, crash reporting, and subscription management. This app does not replace medical advice.",
   scopeTitle: "Scope and App Store",
   scopeBody:
-    'This Privacy Policy applies to the Creatinely application ("the App") distributed through the Apple App Store. By using the App, you also agree to Apple\'s Privacy Policy for the App Store and related services. Apple may collect and process data in connection with your download and use of the App (e.g. purchase history, device information) as described in',
+    'This Privacy Policy applies to the SetLog application ("the App") distributed through the Apple App Store. By using the App, you also agree to Apple\'s Privacy Policy for the App Store and related services. Apple may collect and process data in connection with your download and use of the App (e.g. purchase history, device information) as described in',
   scopeLink: "Apple's Privacy Policy",
   scopeSuffix: ". This policy describes our own data practices as the app developer.",
   controllerTitle: "Data controller",
@@ -30,7 +30,7 @@ export const privacyEn = {
   purposesTitle: "Purposes and legal bases",
   purposesIntro: "We process data for:",
   purposesList: [
-    "Providing the service: reminders, widgets, and subscription features (performance of contract).",
+    "Providing the service: workout logging, widgets, and subscription features (performance of contract).",
     "Analytics and stability: understanding how the app is used and fixing crashes (legitimate interest).",
     "Subscription management: enabling trials and paid access via Apple and RevenueCat (performance of contract).",
   ],

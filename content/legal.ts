@@ -7,12 +7,12 @@
 export const legal = {
   privacy: {
     version: "1.0",
-    lastUpdated: "March 11, 2026",
+    lastUpdated: "June 9, 2026",
     controller: {
       name: "Gabriel Sanchez Palma",
       nif: "51122640B",
       address: "C/San Vicente Mártir 25 1A, Spain",
-      email: "creatinely@gabrisp.com",
+      email: "setlog@gabrisp.com",
     },
     /** Apple App Store privacy / support URLs for reference in policy */
     applePrivacyPolicy: "https://www.apple.com/legal/privacy/",
@@ -20,10 +20,10 @@ export const legal = {
   },
   terms: {
     version: "1.0",
-    lastUpdated: "March 11, 2026",
-    appName: "Creatinely",
+    lastUpdated: "June 9, 2026",
+    appName: "SetLog",
     platform: "iOS",
-    contactEmail: "creatinely@gabrisp.com",
+    contactEmail: "setlog@gabrisp.com",
     trialDays: 3,
     governingLaw: "Spain",
     appleEula: "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",

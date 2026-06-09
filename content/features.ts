@@ -1,13 +1,13 @@
 import type { LucideIcon } from "lucide-react";
 import {
-  Bell,
+  Dumbbell,
   Calendar,
   LayoutGrid,
-  Target,
-  History,
   BarChart3,
+  History,
+  Zap,
   Cloud,
-  Palette,
+  Activity,
   Tablet,
   Shield,
 } from "lucide-react";
@@ -21,46 +21,46 @@ export interface Feature {
 
 export const features: Feature[] = [
   {
-    id: "reminders",
-    title: "Reminders and notifications",
+    id: "workout-logging",
+    title: "Workout logging",
     description:
-      "Recurring and “important” reminders keep you on track with your daily routine.",
-    icon: Bell,
+      "Log sets, reps, and weight for every exercise in a clean, fast interface built for the gym.",
+    icon: Dumbbell,
   },
   {
     id: "calendar",
-    title: "Monthly calendar",
+    title: "Training calendar",
     description:
-      "See your progress at a glance with a clear calendar view of your habit.",
+      "See your workout history at a glance with a clear calendar view of your training.",
     icon: Calendar,
   },
   {
     id: "widgets",
     title: "Widgets",
     description:
-      "Weekly streak and quick actions right on your Home Screen.",
+      "Quick actions and your latest workout right on your Home Screen.",
     icon: LayoutGrid,
-  },
-  {
-    id: "habit-tracking",
-    title: "Full habit tracking",
-    description:
-      "Complete follow-through of your creatine habit with a simple, focused flow.",
-    icon: Target,
-  },
-  {
-    id: "history",
-    title: "History",
-    description:
-      "Review your past activity and build a clear picture of your consistency.",
-    icon: History,
   },
   {
     id: "statistics",
     title: "Statistics",
     description:
-      "Insights and stats to understand your progress over time.",
+      "Insights and charts to understand your volume, frequency, and personal records.",
     icon: BarChart3,
+  },
+  {
+    id: "history",
+    title: "Workout history",
+    description:
+      "Review all your past sessions and track how your performance evolves over time.",
+    icon: History,
+  },
+  {
+    id: "live-activity",
+    title: "Live Activity",
+    description:
+      "Track your active workout from the Lock Screen and Dynamic Island in real time.",
+    icon: Zap,
   },
   {
     id: "icloud",
@@ -70,11 +70,11 @@ export const features: Feature[] = [
     icon: Cloud,
   },
   {
-    id: "customize",
-    title: "Customize your jar",
+    id: "healthkit",
+    title: "HealthKit integration",
     description:
-      "Personalize the jar and accessories to make the experience yours.",
-    icon: Palette,
+      "Automatically write workouts to Apple Health to keep all your data in one place.",
+    icon: Activity,
   },
   {
     id: "ipad",

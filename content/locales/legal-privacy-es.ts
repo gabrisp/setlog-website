@@ -1,14 +1,14 @@
 /** Spanish strings for Privacy page. */
 export const privacyEs = {
-  subtitle: "Cómo Creatinely recopila, usa y protege tu información.",
+  subtitle: "Cómo SetLog recopila, usa y protege tu información.",
   version: "Versión",
   lastUpdated: "Última actualización",
   summaryTitle: "Resumen en lenguaje claro",
   summaryBody:
-    "Creatinely no requiere cuenta. No pedimos tu nombre. No usamos identificadores publicitarios (IDFA) ni vendemos tus datos. Usamos servicios estándar (Firebase, RevenueCat) para analíticas, informes de fallos y gestión de suscripciones. Las notificaciones son solo locales. Esta app no sustituye consejo médico.",
+    "SetLog no requiere cuenta. No pedimos tu nombre. No usamos identificadores publicitarios (IDFA) ni vendemos tus datos. Usamos servicios estándar (Firebase, RevenueCat) para analíticas, informes de fallos y gestión de suscripciones. Esta app no sustituye consejo médico.",
   scopeTitle: "Ámbito y App Store",
   scopeBody:
-    'Esta Política de Privacidad aplica a la aplicación Creatinely ("la App") distribuida a través de la App Store de Apple. Al usar la App, aceptas también la Política de Privacidad de Apple para la App Store y servicios relacionados. Apple puede recopilar y procesar datos en relación con la descarga y el uso de la App (p. ej. historial de compras, información del dispositivo) según se describe en',
+    'Esta Política de Privacidad aplica a la aplicación SetLog ("la App") distribuida a través de la App Store de Apple. Al usar la App, aceptas también la Política de Privacidad de Apple para la App Store y servicios relacionados. Apple puede recopilar y procesar datos en relación con la descarga y el uso de la App (p. ej. historial de compras, información del dispositivo) según se describe en',
   scopeLink: "Política de Privacidad de Apple",
   scopeSuffix: ". Esta política describe nuestras propias prácticas como desarrollador de la app.",
   controllerTitle: "Responsable del tratamiento",
@@ -30,7 +30,7 @@ export const privacyEs = {
   purposesTitle: "Finalidades y bases legales",
   purposesIntro: "Tratamos datos para:",
   purposesList: [
-    "Prestar el servicio: recordatorios, widgets y funciones de suscripción (ejecución del contrato).",
+    "Prestar el servicio: registro de entrenamientos, widgets y funciones de suscripción (ejecución del contrato).",
     "Analíticas y estabilidad: entender el uso de la app y corregir fallos (interés legítimo).",
     "Gestión de suscripciones: permitir pruebas y acceso de pago vía Apple y RevenueCat (ejecución del contrato).",
   ],
