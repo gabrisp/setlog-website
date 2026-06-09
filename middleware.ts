@@ -1,8 +1,12 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
-import { isValidLocale } from "@/lib/i18n";
 
+const LOCALES = ["en", "es"] as const;
 const LOCALE_COOKIE = "locale";
+
+function isValidLocale(locale: string): boolean {
+  return (LOCALES as readonly string[]).includes(locale);
+}
 
 export function middleware(request: NextRequest) {
   const lang = request.nextUrl.searchParams.get("lan");
