@@ -26,14 +26,22 @@ export default function TermsPage() {
             {t.legal.termsTitle}
           </h1>
           <p className="mt-2 text-neutral-600">{p.subtitle}</p>
-          <dl className="mt-6 flex flex-wrap gap-x-6 gap-y-1 text-sm text-neutral-500">
-            <div>
-              <dt className="sr-only">{p.version}</dt>
-              <dd>{p.version} {terms.version}</dd>
+          <dl className="mt-6 flex flex-col gap-y-1 text-sm text-neutral-500">
+            <div className="flex gap-x-2">
+              <dt className="font-medium text-neutral-700">{p.effectiveDateLabel}:</dt>
+              <dd>{terms.effectiveDate}</dd>
             </div>
-            <div>
-              <dt className="sr-only">{p.lastUpdated}</dt>
-              <dd>{p.lastUpdated}: {terms.lastUpdated}</dd>
+            <div className="flex gap-x-2">
+              <dt className="font-medium text-neutral-700">{p.developerLabel}:</dt>
+              <dd>{terms.developerName}</dd>
+            </div>
+            <div className="flex gap-x-2">
+              <dt className="font-medium text-neutral-700">{p.contactLabel}:</dt>
+              <dd>
+                <a href={`mailto:${terms.contactEmail}`} className="text-apple-blue hover:underline">
+                  {terms.contactEmail}
+                </a>
+              </dd>
             </div>
           </dl>
         </header>
